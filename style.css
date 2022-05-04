@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@300&family=Space+Mono&display=swap');
+body {
+  background-color: lavenderblush;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(107, 106, 106);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  color: rgb(107, 106, 106);
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 1000;
+  letter-spacing: 8px;
+  line-height: 40px;
+}
+h2{
+  color: rgb(146, 184, 255);
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black
+}
+#btn-blue:hover {
+  background-color: yellowgreen
+}
+.container {
+  background-color: lavenderblush;
+  padding: 2px;
+  margin: 24px auto;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 5px 10px 15px rgba(0,0,0,0.2);
+  width: 650px;
+  margin: 24px auto;
+  text-align: center;
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+#btn-blue {
+  background-color: rgb(146, 184, 255);
+  padding: 8px 24px;
+  color: whitesmoke;
+  border-radius: 4px;
+  font-weight: bolder;
+  font-size: smaller;
+}
+.social-icon {
+  color: rgb(161, 159, 159);
+  font-size: 32px;
+  margin: 4px 8px;
+}
+.social-icon:hover {
+  color: yellowgreen
+}
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .card-white {
+    width: 200px;
+  }
+}
